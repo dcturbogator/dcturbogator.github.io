@@ -2,7 +2,7 @@
 layout: post
 author: chris
 title: Testing my first post
-categories: lifestyle update
+tags: [lifestyle, test]
 ---
 This is my first post and my first paragraph.
 
