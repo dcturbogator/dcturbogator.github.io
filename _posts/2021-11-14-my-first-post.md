@@ -1,11 +1,30 @@
 ---
 layout: post
 author: chris
-title: Testing my first post
-tags: [lifestyle, test]
+title: How To Invest In The S&P 500
+tags: [investing]
 ---
-This is my first post and my first paragraph.
+## What is the S&P 500?
 
-This is my second paragraph.
+The S&P 500 is a basket of stocks
 
-Then finally the third paragraph.
+Ticker symbols
+* SPY
+* VOO
+
+## Index Funds vs ETFS
+
+ETFS are like the market, Index Funds are not
+
+## Why invest in the S&P 500
+
+To get rich
+
+## Brokerages
+
+* Vanguard
+* Merrill Edge
+* e-Trade
+* TD Ameritrade
+* Robinhood
+
