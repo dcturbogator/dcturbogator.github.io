@@ -1,10 +1,11 @@
 ---
 layout: post
 author: chris
-title: How To Invest In The S&P 500
-tags: [investing]
+title: Git Basics
+tags: [git]
+published: false
 ---
-## What is the S&P 500?
+## What is git?
 
 The S&P 500 is a basket of stocks
 
