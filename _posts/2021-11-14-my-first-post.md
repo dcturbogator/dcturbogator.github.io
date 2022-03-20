@@ -3,29 +3,12 @@ layout: post
 author: chris
 title: Git Basics
 tags: [git]
-published: false
+subtitle: Common git commands
+cover-img: /assets/img/blog_1.png
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+tags: [books, test]
+published: true
 ---
 ## What is git?
-
-The S&P 500 is a basket of stocks
-
-Ticker symbols
-* SPY
-* VOO
-
-## Index Funds vs ETFS
-
-ETFS are like the market, Index Funds are not
-
-## Why invest in the S&P 500
-
-To get rich
-
-## Brokerages
-
-* Vanguard
-* Merrill Edge
-* e-Trade
-* TD Ameritrade
-* Robinhood
 

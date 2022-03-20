@@ -14,7 +14,11 @@ author: Chris Anderson
 # --- List of links in the navigation bar --- #
 
 navbar-links:
- # About Me: "aboutme"
+#  About Me: "aboutme"
+  Blog: "blog"
+  Shop: 
+    - E-Books: "ebooks"
+    - Courses: "courses"
  # Resources:
  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
  #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -115,8 +119,8 @@ footer-hover-col: "#0085A1"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
+navbar-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
