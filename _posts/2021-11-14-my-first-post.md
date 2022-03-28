@@ -12,3 +12,4 @@ published: true
 ---
 ## What is git?
 
+This is a test post.
