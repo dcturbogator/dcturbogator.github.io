@@ -1,18 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Software Developer who loves technology, golf, running, and calisthenics.
 ---
-<!-- 
-### Hello!
 
-Thanks for stopping by! Here's some information about who I am and what this blog is all about.
 
-- Item 1
-- Item 2
 
-What else do you need?
+**Hi! Thanks for stopping by!**
 
-### My story
+My name is Chris Anderson. I am a software developer with over 18 years of experience.
 
-I grew up in West Virginia. -->
+I have always been passionate about learning and this is my outlet for sharing what I have learned with you. 
+
+I hope you enjoy the content!
+
+
