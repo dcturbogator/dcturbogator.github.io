@@ -34,7 +34,7 @@ I won't use this post to go  deep into Git, but this is a reference for some of 
 | push changes  | git push | 
 | push local branch  | git push -u origin feat1 | 
 
-## Learn to Install Git
+## Learn to Install and Setup Git
 
 Check out my tutorial below to get started with Git
 
