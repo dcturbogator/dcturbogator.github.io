@@ -34,6 +34,7 @@ I won't use this post to go  deep into Git, but this is a reference for some of 
 | list commits  | git log \-\-oneline \-\-all \-\-graph | 
 | push changes  | git push | 
 | push local branch  | git push -u origin feat1 | 
+| rename file | git mv oldFilename newFilename |
 
 ## Learn to Install and Setup Git
 
