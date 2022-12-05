@@ -30,6 +30,7 @@ I won't use this post to go  deep into Git, but this is a reference for some of 
 | switch branches | git switch feat1 | 
 | merge branch | git merge feat2 | 
 | delete local branch  | git branch -d feat2 | 
+| delete remote branch | git push origin -d feat2 |
 | list commits  | git log \-\-oneline \-\-all \-\-graph | 
 | push changes  | git push | 
 | push local branch  | git push -u origin feat1 | 
@@ -38,6 +39,6 @@ I won't use this post to go  deep into Git, but this is a reference for some of 
 
 Check out my tutorial below to get started with Git
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wwRAgbfMV1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
- {% youtube "https://www.youtube.com/watch?v=wwRAgbfMV1o" %}
 
