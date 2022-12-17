@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Courses
-subtitle: Support me by purchasing a course
 ---
 
 {: .box-note}

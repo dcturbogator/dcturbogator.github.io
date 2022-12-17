@@ -1,7 +1,6 @@
 ---
 layout: page
 title: E-Books
-subtitle: Support me by purchasing an e-book.
 ---
 
 
