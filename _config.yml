@@ -139,7 +139,7 @@ site-css:
 # --- Web Analytics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: "G-M0CQ0R5JXL"
+gtag: "G-M0CQ0R5JXL"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
 google_analytics: "4345969548"
