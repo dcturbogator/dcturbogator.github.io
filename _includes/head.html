@@ -1,0 +1,52 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if page.title %}
+        <title>{{ page.title }} | Chris Anderson</title>
+    {% else %}
+        <title>Chris Anderson | Personal Site</title>
+    {% endif %}
+    <meta name='description' content='Chris Anderson Personal Site | Fitness | Technology | Travel'>
+
+    <link rel="canonical" href="https://www.chrisanderson.co/">
+    <link rel="alternate" type="application/rss+xml" title="Chris Anderson" href="/feed.xml">
+
+    <!-- Twitter Card -->
+    <!-- <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chris Anderson">
+    <meta name="twitter:description" content="Menca personal blogging theme for Jekyll">
+    <meta name="twitter:image:src" content="https://menca.netlify.app/images/01.jpg"> -->
+
+    <!-- Facebook OpenGraph -->
+    <!-- <meta property="og:title" content="Menca">
+    <meta property="og:description" content="Menca personal blogging theme for Jekyll">
+    <meta property="og:image" content="https://menca.netlify.app/images/01.jpg"> -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap"
+        as="style">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- Ionicons -->
+    <link rel="preload" href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" as="style">
+
+    <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <script>
+
+        if (localStorage.getItem("theme") === "dark") {
+            document.documentElement.setAttribute("dark", "");
+            document.documentElement.classList.add('dark-mode');
+        }
+
+    </script>
+    <!-- <script src="/js/scripts.js"></script>
+    <script src="/js/common.js"></script> -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+</head>

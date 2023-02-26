@@ -1,0 +1,88 @@
+---
+layout: default
+---
+<!-- begin content -->
+<main class="content" aria-label="Content">
+    <!-- begin tags -->
+    <section class="tags">
+        <div class="tag__head">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12">
+                        <h1 class="tag__title">Tags</h1>
+                        <ul class="tag__list list-reset">
+
+                            {% for tag in site.tags %}
+                                <li class="tag__item"><a href="#{{ tag[0] }}" class="tag__link">{{ tag[0] }}</a></li>
+                            {% endfor %}
+
+                            <!-- <li class="tag__item"><a href="#fashion" class="tag__link">fashion</a></li>
+                            <li class="tag__item"><a href="#hobby" class="tag__link">hobby</a></li>
+                            <li class="tag__item"><a href="#lifestyle" class="tag__link">lifestyle</a></li>
+                            <li class="tag__item"><a href="#notes" class="tag__link">notes</a></li>
+                            <li class="tag__item"><a href="#rest" class="tag__link">rest</a></li>
+                            <li class="tag__item"><a href="#story" class="tag__link">story</a></li>
+                            <li class="tag__item"><a href="#study" class="tag__link">study</a></li>
+                            <li class="tag__item"><a href="#technology" class="tag__link">technology</a></li>
+                            <li class="tag__item"><a href="#travel" class="tag__link">travel</a></li>
+                            <li class="tag__item"><a href="#workflow" class="tag__link">workflow</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% for tag in site.tags %}
+        <div class="tags__inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="tag__info">
+                            <div class="tag__info-box">
+                                <div class="tag__counter">
+                                    <span>{{ tag[1] | size }}</span>
+                                    <small>Posts</small>
+                                </div>
+                                <h2 class="tag__name" id="{{ tag[0] }}">{{ tag[0] }}</h2>
+                            </div>
+                            <a class="top__link" href="#top">Return to top</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="row">
+
+                            {% for post in tag[1] %}    
+                            <div class="article col col-4 col-d-6 col-t-12">
+                                <div class="article__inner">
+                                    <div class="article__head">
+                                        <time class="article__date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
+                                        <a class="article__image"
+                                            href="{{ post.url }}">
+                                            <img class="lazy" data-src="{{ post.thumbnail-img }}"
+                                                alt="{{ post.title }}">
+                                        </a>
+                                    </div>
+                                    <div class="article__content">
+                                        <h2 class="article__title">
+                                            <a href="{{ post.url }}">{{ post.title }}</a>
+                                        </h2>
+                                        <p class="article__excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    <!-- end tags -->
+</main>
+<!-- end content -->

@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col col-12">
+    <div class="post-video">
+      <div class="post-video__wrap">
+        <iframe src={{ page.youtubeurl }} loading="lazy" width="640" height="360"
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="col col-12">
+    <div class="post__info post__info-video">
+      <div class="post__tags">
+        <a href="/tags#workflow" class="post__tag">workflow</a>
+        <a href="/tags#hobby" class="post__tag">hobby</a>
+        <a href="/tags#study" class="post__tag">study</a>
+      </div>
+      <p>{{ page.type }}</p>
+      <h1 class="post__title">{{ page.title }}</h1>
+      <div class="post__meta">
+        <a href="/about/" class="post__author-image">
+          <img class="lazy" data-src="/images/01-1.jpg" alt="Camelia Mendes">
+        </a>
+        <div class="post__meta-bottom">
+          <a class="post__author" href="/about/">{{ page.author }}</a>
+          <time class="post__date" datetime="2020-11-14T12:01:35+00:00">14 Nov 2020</time>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
