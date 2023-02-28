@@ -5,7 +5,7 @@ title: Going to greece
 tags: travel
 subtitle: Create a simple webpage quickly.
 cover-img: /assets/img/blog_2.png
-thumbnail-img: /assets/img/09.jpg
+thumbnail-img: /assets/img/07.jpg
 share-img: /assets/img/path.jpg
 published: true
 video: video

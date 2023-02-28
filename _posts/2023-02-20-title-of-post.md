@@ -2,7 +2,7 @@
 layout: post
 author: Chris Anderson
 title: How to make a webpage.
-tags: technology
+tags: fitness 
 subtitle: Create a simple webpage quickly.
 cover-img: /assets/img/blog_2.png
 thumbnail-img: /assets/img/02.jpg

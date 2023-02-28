@@ -10,15 +10,20 @@
   <div class="col col-12">
     <div class="post__info post__info-video">
       <div class="post__tags">
-        <a href="/tags#workflow" class="post__tag">workflow</a>
-        <a href="/tags#hobby" class="post__tag">hobby</a>
-        <a href="/tags#study" class="post__tag">study</a>
+
+        {% if page.tags.size > 0 %}
+          {% for tag in page.tags %}
+            <a href="/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
+          {% endfor %}
+        {% endif %}
+
+
       </div>
       <p>{{ page.type }}</p>
       <h1 class="post__title">{{ page.title }}</h1>
       <div class="post__meta">
         <a href="/about/" class="post__author-image">
-          <img class="lazy" data-src="/images/01-1a.jpg" alt="Chris Anderson">
+          <img class="lazy" data-src="/assets/img/01-1a.jpg" alt="Chris Anderson">
         </a>
         <div class="post__meta-bottom">
           <a class="post__author" href="/about/">{{ page.author }}</a>

@@ -123,8 +123,34 @@ layout: default
                     </div>
                     <div class="row">
 
-                        {% for tag in site.tags %}
-                            {% for post in tag[1] limit:4 %}  
+                        <div class="col col-3 col-d-6 col-m-12">
+                            <a href="/tags#technology" class="tag-image">
+                                <span class="tag-name">Technology</span>
+                                <img class="lazy" data-src="/assets/img/09.jpg" alt="post.title">
+                            </a>
+                        </div>
+                        <div class="col col-3 col-d-6 col-m-12">
+                            <a href="/tags#fitness" class="tag-image">
+                                <span class="tag-name">Fitness</span>
+                                <img class="lazy" data-src="/assets/img/08.jpg" alt="post.title">
+                            </a>
+                        </div>
+                        <div class="col col-3 col-d-6 col-m-12">
+                            <a href="/tags#travel" class="tag-image">
+                                <span class="tag-name">Travel</span>
+                                <img class="lazy" data-src="/assets/img/07.jpg" alt="post.title">
+                            </a>
+                        </div>
+                        <div class="col col-3 col-d-6 col-m-12">
+                            <a href="/tags#lifestyle" class="tag-image">
+                                <span class="tag-name">Lifestyle</span>
+                                <img class="lazy" data-src="/assets/img/05.jpg" alt="post.title">
+                            </a>
+                        </div>
+
+
+                        <!-- {% for tag in site.tags limt:1 %}
+                            {% for post in tag[1] limit:1 %}  
                                 <div class="col col-3 col-d-6 col-m-12">
                                     <a href="/tags#{{ tag[0] }}" class="tag-image">
                                         <span class="tag-name">{{ tag[0] }}</span>
@@ -132,7 +158,7 @@ layout: default
                                     </a>
                                 </div>
                             {% endfor %}
-                        {% endfor %}
+                        {% endfor %} -->
 
                     </div>
                 </div>

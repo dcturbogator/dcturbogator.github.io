@@ -27,7 +27,7 @@ layout: default
         <div class="post__content">
           {{ content }}
         </div>
-        <div class="post__share">
+        <!-- <div class="post__share">
           <ul class="share__list list-reset">
             <li class="share__item">
               <a class="share__link share__twitter"
@@ -54,12 +54,39 @@ layout: default
                 title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </article>
     </div>
     <!-- end post -->
   
+    <div class="container">
+      <div class="row">
+          <div class="col col-12">
+              <nav class="pagination animate">
+                  <div class="pagination__inner">
+                      <div class="pagination__list">
+                        {% if page.previous.url %}
+                          <!-- <a class="page-link" href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title | strip_html | xml_escape}}">&larr; Previous Post</a> -->
+                          <a href="{{ page.previous.url | relative_url }}" class="pagination__prev pagination__item"><i
+                            class="ion ion-ios-arrow-back"></i> Prev Post</a>
+                        {% endif %}
+                        <div>
+                            &nbsp;
+                        </div>
+                        {% if page.next.url %}
+                          <!-- <a class="page-link" href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title | strip_html | xml_escape}}">Next Post &rarr;</a> -->
+                          <a href="{{ page.next.url | relative_url }}" class="pagination__next pagination__item">Next Post <i
+                            class="ion ion-ios-arrow-forward"></i></a>
+                        {% endif %}
   
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
+
+
   
     <!-- begin related posts -->
     <div class="container">

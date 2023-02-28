@@ -7,9 +7,11 @@
   <div class="col col-6 col-d-12">
     <div class="post__info ">
       <div class="post__tags">
-        <a href="/tags#lifestyle" class="post__tag">lifestyle</a>
-        <a href="/tags#travel" class="post__tag">travel</a>
-        <a href="/tags#story" class="post__tag">story</a>
+        {% if page.tags.size > 0 %}
+          {% for tag in page.tags %}
+            <a href="/tags#{{ tag }}" class="post__tag">{{ tag }}</a>
+          {% endfor %}
+        {% endif %}
       </div>
       <h1 class="post__title">Do what you can, with what you have, where you are</h1>
       <div class="post__meta">

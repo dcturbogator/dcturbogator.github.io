@@ -50,11 +50,33 @@ layout: default
             <nav class="pagination animate">
                 <div class="pagination__inner">
                     <div class="pagination__list">
-                        <span class="pagination__prev pagination__item disabled"><i
-                                class="ion ion-ios-arrow-back"></i> Prev</span>
-                        <div class="pagination__count pagination__item">Page 1 of 2</div>
-                        <a href="/page/2" class="pagination__next pagination__item">Next <i
-                                class="ion ion-ios-arrow-forward"></i></a>
+                      {% if paginator.total_pages > 1 %}
+                        {% if paginator.previous_page %}
+                          <!-- <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev1</a> -->
+                          <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination__prev pagination__item"><i
+                            class="ion ion-ios-arrow-back"></i> Prev</a>
+                        {% else %}
+                          <span class="pagination__prev pagination__item disabled"><i
+                          class="ion ion-ios-arrow-back"></i> Prev</span>
+                        {% endif %}
+
+                        {% for page in (1..paginator.total_pages) %}
+                          {% if page == paginator.page %}
+                          <div class="pagination__count pagination__item">Page {{ page }} of {{ paginator.total_pages }}</div>
+                          {% endif %}
+                        {% endfor %}
+                        
+                        {% if paginator.next_page %}
+                        <!-- <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev1</a> -->
+                        <a href="{{ paginator.next_page_path | relative_url }}" class="pagination__next pagination__item">Next <i
+                          class="ion ion-ios-arrow-forward"></i></a>
+                        {% else %}
+                        <span class="pagination__next pagination__item disabled">Next <i
+                          class="ion ion-ios-arrow-forward"></i></span>
+                        {% endif %}
+
+                      {% endif %}
+
                     </div>
                 </div>
             </nav>
@@ -62,29 +84,4 @@ layout: default
     </div>
 </div>
 <!-- end pagination -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/' | relative_url }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
 
