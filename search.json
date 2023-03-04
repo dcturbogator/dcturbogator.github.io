@@ -1,0 +1,16 @@
+---
+layout: none
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}",
+      "thumbnail-img" : "{{ site.baseurl }}{{ post.thumbnail-img }}",
+      "article" : "<div class='article col col-4 col-d-6 col-t-12 animate'> <div class='article__inner'> <div class='article__head'> <time class='article__date' datetime='2020-11-12T12:01:35+00:00'>12 Nov 2020</time><a class='article__image' href='/do-what-you-can-with-what-you-have-where-you-are'> <img src='{{ post.thumbnail-img }}' alt='Do what you can, with what you have, where you are'> </a></div><div class='article__content'> <h2 class='article__title'> <a href='{{ post.url }}'>{{ post.title }}</a> </h2><p class='article__excerpt'>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...</p></div></div></div>"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
