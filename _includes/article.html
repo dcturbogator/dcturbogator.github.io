@@ -1,0 +1,50 @@
+<div class="article col col-4 col-d-6 col-t-12">
+    <div class="article__inner">
+        <div class="article__head">
+
+            {% assign current_year = 'now' | date: "%-Y" %}
+            {% assign post_year = post.date | date: "%-Y" %}
+
+            {% assign today = site.time | date: '%s' %}
+            {% assign start = post.date | date: '%s' %}
+            {% assign secondsSince = today | minus: start %}
+            {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+            {% assign daysSince = hoursSince | divided_by: 24  %}
+            
+
+
+            <!-- <time class="article__date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time> -->
+            <!-- <time class="article__date" datetime="{{ post.date }}">{{ post_year }}</time> -->
+            {% if daysSince <= 60 %}
+                <time class="article__date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
+            {% else %}
+                <time datetime="{{ post.date }}"></time>
+            {% endif %}
+            
+            {% if post.video %}
+
+            <div class="video-icon">
+                <div class="circle pulse"></div>
+                <div class="circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                        <polygon points="40,30 65,50 40,70"></polygon>
+                    </svg>
+                </div>
+            </div>
+
+            {% endif %}
+
+            
+            <a class="article__image" href="{{ post.url }}">
+                <img class="lazy" data-src="{{ post.thumbnail-img }}"
+                    alt="That which does not kill us makes us stronger">
+            </a>
+        </div>
+        <div class="article__content">
+            <h2 class="article__title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <p class="article__excerpt">{{ post.excerpt | truncatewords: 15 }}</p>
+        </div>
+    </div>
+</div>
