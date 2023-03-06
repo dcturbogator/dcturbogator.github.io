@@ -9,14 +9,10 @@ layout: default
     <div class="post-head">
       <div class="container">
   
-        {% if page.video %}
-
-            {% include postvideo.html %}
-    
+        {% if page.youtubeurl And page.youtubeurl != "" And page.youtubeurl != nil %}
+            {% include postvideo.html %}    
         {% else %}
-    
-            {% include post.html %}
-    
+            {% include post.html %}    
         {% endif %}
         
       </div>

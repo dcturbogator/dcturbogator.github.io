@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Chris Anderson
 title:  "Chris Anderson!"
 date:   2023-02-26 21:34:12 -0500
 categories: jekyll update

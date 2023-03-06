@@ -9,19 +9,15 @@
             {% assign start = post.date | date: '%s' %}
             {% assign secondsSince = today | minus: start %}
             {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
-            {% assign daysSince = hoursSince | divided_by: 24  %}
-            
+            {% assign daysSince = hoursSince | divided_by: 24  %}    
 
-
-            <!-- <time class="article__date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time> -->
-            <!-- <time class="article__date" datetime="{{ post.date }}">{{ post_year }}</time> -->
             {% if daysSince <= 60 %}
                 <time class="article__date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
             {% else %}
                 <time datetime="{{ post.date }}"></time>
             {% endif %}
             
-            {% if post.video %}
+            {% if post.youtubeurl And post.youtubeurl != "" And post.youtubeurl != nil %}
 
             <div class="video-icon">
                 <div class="circle pulse"></div>

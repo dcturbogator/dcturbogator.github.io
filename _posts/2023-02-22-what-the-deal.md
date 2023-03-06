@@ -1,14 +1,13 @@
 ---
 layout: post
 author: Chris Anderson
-title: Going to greece
-tags: travel
-subtitle: Create a simple webpage quickly.
+title: South America
+tags: travel code
+subtitle: Join me on my journey to south america and all the wildlife
 cover-img: /assets/img/blog_2.png
 thumbnail-img: /assets/img/07.jpg
 share-img: /assets/img/path.jpg
 published: true
-video: video
 youtubeurl: https://www.youtube.com/embed/gghgYaYeG_M
 ---
 

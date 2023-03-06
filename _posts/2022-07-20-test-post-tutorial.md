@@ -1,14 +1,14 @@
 ---
 layout: post
 author: Chris Anderson
-title: How to do pullups
-tags: fitness
+title: Test Post Tutorial
+tags: fitness code
 subtitle: This will be how you get buff and can do a massive amount of pushups and be ripped all day.
 cover-img: /assets/img/blog_2.png
 thumbnail-img: /assets/img/09.jpg
 share-img: /assets/img/path.jpg
 published: true
-video: false
+youtubeurl: https://www.youtube.com/embed/QsR7uAVTtSg
 ---
 
 HTML is an easy language to start with if you want to get into software design or development and for that reason I am curious how long this excerpt will be. I am guessing it can get very very long. But I only want it to be a few words. This might be too much to handle.
@@ -41,9 +41,9 @@ Your default browser will open with the contents that we coded into the html fil
 Check out the video below to watch me create a simple webpage on youtube and to learn what the contents of this html file mean.
 
 
-<div class="iframe-container">
+<!-- <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QsR7uAVTtSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+</div> -->
 
 
 

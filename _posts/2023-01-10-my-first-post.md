@@ -8,7 +8,6 @@ cover-img: /assets/img/blog_2.png
 thumbnail-img: /assets/img/09.jpg
 share-img: /assets/img/path.jpg
 published: true
-video: false
 ---
 
 HTML is an easy language to start with if you want to get into software design or development and for that reason I am curious how long this excerpt will be. I am guessing it can get very very long. But I only want it to be a few words. This might be too much to handle.

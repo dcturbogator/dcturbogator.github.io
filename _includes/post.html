@@ -13,14 +13,27 @@
           {% endfor %}
         {% endif %}
       </div>
-      <h1 class="post__title">Do what you can, with what you have, where you are</h1>
+      <h1 class="post__title">{{ page.title }}</h1>
       <div class="post__meta">
         <a href="/about/" class="post__author-image">
-          <img class="lazy" data-src="/assets/img/01-1a.jpg" alt="Chris Anderson">
+          <img class="lazy" data-src="/assets/img/01-1a.jpg" alt="{{ page.author }}">
         </a>
         <div class="post__meta-bottom">
-          <a class="post__author" href="/about/">Chris Anderson</a>
-          <time class="post__date" datetime="2020-11-12T12:01:35+00:00">12 Nov 2020</time>
+          <a class="post__author" href="/about/">{{ page.author }}</a>
+          {% assign current_year = 'now' | date: "%-Y" %}
+          {% assign post_year = page.date | date: "%-Y" %}
+
+          {% assign today = site.time | date: '%s' %}
+          {% assign start = page.date | date: '%s' %}
+          {% assign secondsSince = today | minus: start %}
+          {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+          {% assign daysSince = hoursSince | divided_by: 24  %}    
+
+          {% if daysSince <= 60 %}
+              <time class="post__date" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
+          {% else %}
+              <time datetime="{{ page.date }}"></time>
+          {% endif %}
         </div>
       </div>
     </div>
