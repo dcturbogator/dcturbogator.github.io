@@ -94,9 +94,10 @@ layout: default
                   <a class="section__link" href="/blog">
 
                     {% if page.tags.size > 0 %}
-                    {% for tag in page.tags %}
+                    <a href="/tags#{{ page.tags.first }}" class="section__link related-tag">See all <span>{{ page.tags.first }}</span></a>
+                    <!-- {% for tag in page.tags %}
                       <a href="/tags#{{ tag }}" class="section__link related-tag">See all <span>{{ tag }}</span></a>
-                    {% endfor %}
+                    {% endfor %} -->
                   {% endif %}
 <!-- 
                     <a href="/tags#workflow" class="section__link related-tag">See all<span> workflow</span></a> -->

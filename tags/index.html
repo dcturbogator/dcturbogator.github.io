@@ -55,8 +55,11 @@ layout: default
                     <div class="col col-12">
                         <div class="row">
 
-                            {% for post in tag[1] %}    
-                            <div class="article col col-4 col-d-6 col-t-12">
+                            {% for post in tag[1] %}   
+                            
+                            {% include article.html %}
+
+                            <!-- <div class="article col col-4 col-d-6 col-t-12">
                                 <div class="article__inner">
                                     <div class="article__head">
                                         <time class="article__date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
@@ -73,7 +76,7 @@ layout: default
                                         <p class="article__excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15}}</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             {% endfor %}
 
                         </div>
