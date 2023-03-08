@@ -130,7 +130,9 @@ layout: default
               
                   {% if sameTagCount >= minCommonTags %}
               
-                  <div class="article col col-4 col-d-6 col-t-12">
+                  {% include article.html %}
+
+                  <!-- <div class="article col col-4 col-d-6 col-t-12">
                     <div class="article__inner">
                         <div class="article__head">
                             <time class="article__date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
@@ -161,7 +163,7 @@ layout: default
                             <p class="article__excerpt">{{ post.excerpt | truncatewords: 15 }}</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
               
                     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
                     {% if maxRelatedCounter >= maxRelated %}

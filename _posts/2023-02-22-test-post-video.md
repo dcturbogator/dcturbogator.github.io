@@ -1,13 +1,15 @@
 ---
 layout: post
 author: Chris Anderson
-title: South America
-tags: travel code
-subtitle: Join me on my journey to south america and all the wildlife
-cover-img: /assets/img/blog_2.png
 thumbnail-img: /assets/img/07.jpg
+title: "Test Post Video"
+subtitle: Template for a post that includes a video
+date:   2023-02-22 21:34:12 -0500
+tags: travel
+categories: travel
+cover-img: /assets/img/blog_2.png
 share-img: /assets/img/path.jpg
-published: true
+published: false
 youtubeurl: https://www.youtube.com/embed/gghgYaYeG_M
 ---
 
