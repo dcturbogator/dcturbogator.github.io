@@ -1,0 +1,16 @@
+# Jekyll internals
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler (Ruby's version of node_modules)
+.bundle/
+vendor/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Node.js (Just in case you add it later)
+node_modules/
