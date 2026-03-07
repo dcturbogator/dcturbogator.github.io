@@ -3,6 +3,39 @@ layout: default
 ---
 <!-- begin content -->
 <main class="content" aria-label="Content">
+  <section class="tag-section">
+    <div class="container">
+      <h1>Coding</h1>
+      <p>Found {{ site.tags.Code | size }} posts.</p>
+      
+      <div class="row">
+        {% for post in site.tags.Code %}
+          {% include article.html %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="category-header">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <p>Showing all {{ site.categories.Code | size }} posts in this category.</p>
+    </div>
+  </section>
+
+  <section class="post-grid">
+    <div class="container">
+      <div class="row">
+        {% for post in site.categories.Code %}
+          {% include article.html %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+
+
+
     <div class="page-head">
         <div class="container">
             <div class="row">

@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Git Commands 
 subtitle: Reference for common git commands
 tags: Technology Code Git
+categories: Code
 thumbnail-img: /assets/img/github1.png
 published: true
 youtubeurl: https://www.youtube.com/embed/wwRAgbfMV1o
