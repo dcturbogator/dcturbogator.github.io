@@ -3,7 +3,7 @@ layout: post
 author: Chris Anderson
 title: Centro Nacional de Golf 
 subtitle: Full 18 Holes on TopTracer
-tags: golf
+tags: Golf
 thumbnail-img: /assets/img/centronacionaldegolf.png
 published: true
 youtubeurl: https://www.youtube.com/embed/jiFQa81BMas?si=FJSGloV06VfPAgge
