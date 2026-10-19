@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Walkthrough - Setup Linux Ubuntu Virtual Machine
 subtitle: Learn how to setup Ubuntu.
 tags: Technology Ubuntu
+categories: Technology
 thumbnail-img: /assets/img/ubuntu_setup.png
 published: true
 youtubeurl: https://www.youtube.com/embed/7LvFyz_m6FQ

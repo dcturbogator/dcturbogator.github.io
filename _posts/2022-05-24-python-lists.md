@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Python for Beginners - Lists
 subtitle: Learn the basics of creating lists in python
 tags: Technology Code Python
+categories: Technology
 thumbnail-img: /assets/img/python_lists.png
 published: true
 youtubeurl: https://www.youtube.com/embed/C8p1I0ddeoE

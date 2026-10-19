@@ -4,6 +4,7 @@ author: Chris Anderson
 title: How to Install Visual Studio 2022
 subtitle: Learn how to install Visual Studio
 tags: Technology Code DotNet
+categories: Technology
 thumbnail-img: /assets/img/install_vs.png
 published: true
 youtubeurl: https://www.youtube.com/embed/uZfiQnIQ0UU

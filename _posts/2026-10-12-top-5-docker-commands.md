@@ -4,8 +4,8 @@ author: Chris Anderson
 title: Top 5 Docker Commands for Everyday Development
 subtitle: Learn five useful Docker commands to run, inspect, and manage containers.
 tags: Technology Code Docker
-categories: Code
-thumbnail-img: /assets/img/tech1.png
+categories: Technology
+thumbnail-img: /assets/img/09.jpg
 published: true
 ---
 

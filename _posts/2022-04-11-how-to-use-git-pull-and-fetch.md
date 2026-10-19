@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Git - How To Use Git Pull and Git Fetch
 subtitle: Learn how to use git pull and git fetch.
 tags: Technology Code Git
+categories: Technology
 thumbnail-img: /assets/img/git_tutorial_6.png
 published: true
 youtubeurl: https://www.youtube.com/embed/dWICNWSy5DQ

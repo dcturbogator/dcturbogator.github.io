@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Python for Beginners - Conditions and If Statements
 subtitle: Learn how to use python conditions and if statements
 tags: Technology Code Python
+categories: Technology
 thumbnail-img: /assets/img/python_conditions.png
 published: true
 youtubeurl: https://www.youtube.com/embed/Ijz4yVoxYLA

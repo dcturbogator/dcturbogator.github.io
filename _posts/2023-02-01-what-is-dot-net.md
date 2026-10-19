@@ -4,6 +4,7 @@ author: Chris Anderson
 title: What is .NET?
 subtitle: Learn about Microsoft .NET.
 tags: Technology Code DotNet
+categories: Technology
 thumbnail-img: /assets/img/what_is_dot_net.png
 published: true
 youtubeurl: https://www.youtube.com/embed/z3Q98sl4miM

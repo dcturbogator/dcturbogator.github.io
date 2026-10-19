@@ -1,0 +1,30 @@
+---
+layout: default
+title: Technology
+---
+
+<main class="content" aria-label="Content">
+    <div class="page-head">
+        <div class="container">
+            <div class="row">
+                <div class="col col-12">
+                    <div class="page__info">
+                        <h1 class="page__title">{{ page.title }}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row animate">
+            {% for post in site.categories.Technology %}
+                {% include article.html %}
+            {% else %}
+                <div class="col col-12">
+                    <p>No Technology posts yet.</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</main>

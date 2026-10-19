@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Git - How to Clone, Fork, and Push to GitHub.
 subtitle: Learn how to clone, fork, and push to GitHub.
 tags: Technology Code Git
+categories: Technology
 thumbnail-img: /assets/img/git_tutorial_5.png
 published: true
 youtubeurl: https://www.youtube.com/embed/NfCo8Njt_-M

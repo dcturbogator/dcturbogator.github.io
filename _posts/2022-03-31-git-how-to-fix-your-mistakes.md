@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Git - How to Fix Your Mistakes
 subtitle: Learn how to fix mistakes made while using git.
 tags: Technology Code Git
+categories: Technology
 thumbnail-img: /assets/img/git_tutorial_4.png
 published: true
 youtubeurl: https://www.youtube.com/embed/ORxL4Blowoc

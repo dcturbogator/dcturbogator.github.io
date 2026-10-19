@@ -1,93 +1,30 @@
 ---
 layout: default
+title: Golf
 ---
-<!-- begin content -->
+
 <main class="content" aria-label="Content">
-  <section class="tag-section">
-    <div class="container">
-      <h1>Coding</h1>
-      <p>Found {{ site.tags.Code | size }} posts.</p>
-      
-      <div class="row">
-        {% for post in site.tags.Code %}
-          {% include article.html %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section class="category-header">
-    <div class="container">
-      <h1>{{ page.title }}</h1>
-      <p>Showing all {{ site.categories.Code | size }} posts in this category.</p>
-    </div>
-  </section>
-
-  <section class="post-grid">
-    <div class="container">
-      <div class="row">
-        {% for post in site.categories.Code %}
-          {% include article.html %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-
-
-
     <div class="page-head">
         <div class="container">
             <div class="row">
                 <div class="col col-12">
-                    <div class="page-image">
-                        <img class="lazy" data-src="/assets/img/golf1.png" alt="Golf">
-                    </div>
-                </div>
-                <div class="col col-12">
                     <div class="page__info">
-                        <h1 class="page__title">Golf</h1>
+                        <h1 class="page__title">{{ page.title }}</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- begin page -->
-    <div class="container animate">
-        <article class="page">
-            <div class="page__content">
-                <p>Here is where I keep track of the golf courses that I have played.</p>
-        
-                <h3 id="unordered-list-example">2024</h3>
-                <ul style="list-style-type: none;"">
-                    <li>East Potomac Golf Course, Washington, DC</li>
-                    <li>Langston Golf Course, Washington, DC</li>
-                </ul>
-                <h3 id="unordered-list-example">2023</h3>
-                <ul style="list-style-type: none;">
-                    <li>Rock Creek Golf Course, Washington, DC</li>
-                </ul>
 
-                <h3 id="unordered-list-example">2017</h3>
-                <ul style="list-style-type: none;">
-                    <li>Wildfire Golf Club (Palmer), Grandview, WV</li>
-                    <li>Wildfire Golf Club (Faldo), Grandview, WV</li>
-                    <li>The Phoenician Golf Club, Grandview, WV</li>
-                    <li>Reflection Bay Golf Club, </li>
-                    <li>Grandview Country Club, Grandview, WV</li>
-                </ul>
-
-                <h3 id="unordered-list-example">2015</h3>
-                <ul style="list-style-type: none;">
-                    <li>Bali Hai Golf Club, Grandview, WV</li>
-                    <li>Camelback Golf Club, Grandview, WV</li>
-                    <li>The Phoenician Golf Club, Grandview, WV</li>
-                    <li>Reflection Bay Golf Club, </li>
-                    <li>Grandview Country Club, Grandview, WV</li>
-                </ul>
-            </div>
-        </article>
+    <div class="container">
+        <div class="row animate">
+            {% for post in site.categories.Golf %}
+                {% include article.html %}
+            {% else %}
+                <div class="col col-12">
+                    <p>No Golf posts yet.</p>
+                </div>
+            {% endfor %}
+        </div>
     </div>
-    <!-- end page -->
 </main>
-<!-- end content -->

@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Python for Beginners - Data Types
 subtitle: Learn python data types.
 tags: Technology Code Python
+categories: Technology
 thumbnail-img: /assets/img/python_data_types.png
 published: true
 youtubeurl: https://www.youtube.com/embed/tPdk4vUaDdI

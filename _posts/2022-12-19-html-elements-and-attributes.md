@@ -4,6 +4,7 @@ author: Chris Anderson
 title: HTML Elements and Attributes
 subtitle: Learn the basic of HTML elements and attributes.
 tags: Technology Code HTML
+categories: Technology
 thumbnail-img: /assets/img/html_elements.png
 published: true
 youtubeurl: https://www.youtube.com/embed/11i8fCHwct8

@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Git - How To Use Git Blame Pull and Git Grep
 subtitle: Learn how to use git blame and git grep.
 tags: Technology Code Git
+categories: Technology
 thumbnail-img: /assets/img/git_tutorial_7.png
 published: true
 youtubeurl: https://www.youtube.com/embed/dWICNWSy5DQ

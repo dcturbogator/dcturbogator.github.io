@@ -4,6 +4,7 @@ author: Chris Anderson
 title: Build a Webpage Using Notepad
 subtitle: Create a simple webpage quickly.
 tags: Technology Code HTML
+categories: Technology
 thumbnail-img: /assets/img/html1.png
 published: true
 youtubeurl: https://www.youtube.com/embed/QsR7uAVTtSg
