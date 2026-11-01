@@ -15,6 +15,36 @@ holes:
     description: "Placeholder: Add your notes for the second hole, from the tee shot to the approach and the final putt."
   - number: 3
     description: "Placeholder: Describe the third hole here, including your club choice, key shots, and how you finished."
+  - number: 4
+    description: "Placeholder: Recap the fourth hole here, with a few words on your strategy, best shot, and final score."
+  - number: 5
+    description: "Placeholder: Recap the fifth hole here, including your tee shot, approach, and how you finished the hole."
+  - number: 6
+    description: "Placeholder: Add your notes for the sixth hole, including club choices, key shots, and the final score."
+  - number: 7
+    description: "Placeholder: Describe the seventh hole here, from your plan on the tee to the approach and final putt."
+  - number: 8
+    description: "Placeholder: Recap the eighth hole here, with a few words on your strategy, best shot, and final score."
+  - number: 9
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."
+  - number: 10
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."    
+  - number: 11
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+  - number: 12
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+  - number: 13
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+  - number: 14
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+  - number: 15
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+  - number: 16
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+  - number: 17
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+  - number: 18
+    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."                          
                                  
 ---
 
