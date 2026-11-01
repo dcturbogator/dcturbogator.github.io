@@ -10,41 +10,41 @@ published: true
 youtubeurl: https://www.youtube.com/embed/dAKQWXbcuXE?si=8nzuPffu37kXjTQZ
 holes:
   - number: 1
-    description: "Placeholder: Add a short recap of the opening hole, including the tee shot, approach, and final score."
+    description: "Find the wide fairway, then allow your approach to release onto the two-tier green."
   - number: 2
-    description: "Placeholder: Add your notes for the second hole, from the tee shot to the approach and the final putt."
+    description: "Play left of the central fairway bunker, then favor the right side of the green."
   - number: 3
-    description: "Placeholder: Describe the third hole here, including your club choice, key shots, and how you finished."
+    description: "Allow for the wind and favor the left green; the slope feeds balls toward the right."
   - number: 4
-    description: "Placeholder: Recap the fourth hole here, with a few words on your strategy, best shot, and final score."
+    description: "Aim just right of the lighthouse off the tee, then allow plenty of rollout on your approach."
   - number: 5
-    description: "Placeholder: Recap the fifth hole here, including your tee shot, approach, and how you finished the hole."
+    description: "Prioritize accuracy between the fairway hazards, then use a running approach over the front mound."
   - number: 6
-    description: "Placeholder: Add your notes for the sixth hole, including club choices, key shots, and the final score."
+    description: "Follow the right dogleg and lay up for a comfortable pitch unless reaching in two is realistic."
   - number: 7
-    description: "Placeholder: Describe the seventh hole here, from your plan on the tee to the approach and final putt."
+    description: "Target the center of the two-tier green and avoid the deep hollow on the right."
   - number: 8
-    description: "Placeholder: Recap the eighth hole here, with a few words on your strategy, best shot, and final score."
+    description: "Trust the aiming post over the blind crest, then judge the uphill approach to a firm green."
   - number: 9
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."
+    description: "Favor the lower left fairway, then lay up in the valley right for an uphill pitch."
   - number: 10
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."    
+    description: "Drive between the distant mounds, then use the green contours to feed your pitch toward the flag."
   - number: 11
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Adjust for the coastal wind and commit to the middle of the green; misses leave little room."
   - number: 12
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Lay up before the fairway narrows, then approach from the right to use the slope and avoid the cliffs."
   - number: 13
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Start right of the central fairway bunker and favor controlled advances over chasing distance on this long par five."
   - number: 14
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Use the generous fairway right of the bunkers, then allow the approach to feed left down the slope."
   - number: 15
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Drive through the gap between the bunkers, then account for the strong right-to-left slope near the green."
   - number: 16
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Favor the upper left fairway tier, then keep your approach clear of the central pot bunker."
   - number: 17
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Check the wind from the elevated tee and use the left slope to feed your ball onto the green."
   - number: 18
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."                          
+    description: "Aim toward the clubhouse for the safer drive, then commit to an approach just right of the front-left bunker."
                                  
 ---
 
