@@ -10,41 +10,41 @@ published: true
 youtubeurl: https://www.youtube.com/embed/DJzVGJ4iZo8?si=SxOAE0cglFCTc4Eu
 holes:
   - number: 1
-    description: "Placeholder: Add a short recap of the opening hole, including the tee shot, approach, and final score."
+    description: "Favor the left fairway for a clear approach around the right dogleg."
   - number: 2
-    description: "Placeholder: Add your notes for the second hole, from the tee shot to the approach and the final putt."
+    description: "Play for position off the tee, then allow for the uphill approach."
   - number: 3
-    description: "Placeholder: Describe the third hole here, including your club choice, key shots, and how you finished."
+    description: "Target the middle of this shallow green; long leaves a difficult recovery."
   - number: 4
-    description: "Placeholder: Recap the fourth hole here, with a few words on your strategy, best shot, and final score."
+    description: "Follow the left dogleg, then lay up right for an uphill pitch."
   - number: 5
-    description: "Placeholder: Recap the fifth hole here, including your tee shot, approach, and how you finished the hole."
+    description: "Challenge the right bunkers only with a comfortable carry; avoid the left trees."
   - number: 6
-    description: "Placeholder: Add your notes for the sixth hole, including club choices, key shots, and the final score."
+    description: "Choose a tee club that keeps the flanking fairway bunkers out of play."
   - number: 7
-    description: "Placeholder: Describe the seventh hole here, from your plan on the tee to the approach and final putt."
+    description: "Respect the right dogleg; advance safely before attacking the green."
   - number: 8
-    description: "Placeholder: Recap the eighth hole here, with a few words on your strategy, best shot, and final score."
+    description: "Take enough club to comfortably carry the pond, especially to front pins."
   - number: 9
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."
+    description: "Favor the fairway right of the left bunkers for a clearer approach."
   - number: 10
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."    
+    description: "Prioritize the fairway, then allow extra carry to the elevated green."
   - number: 11
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Favor the right fairway and carry the false front on your approach."
   - number: 12
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Take the safer right route unless you can comfortably carry the cross bunkers."
   - number: 13
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Plan three controlled shots, laying up short of the cross bunkers."
   - number: 14
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Control distance carefully; the shallow green leaves little room for error."
   - number: 15
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Find the fairway and take extra club for the steep uphill approach."
   - number: 16
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Find the narrow fairway from the elevated tee; avoid the greenside bunkers."
   - number: 17
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score." 
+    description: "Aim for the same half as the flag to avoid putting across the ridge."
   - number: 18
-    description: "Placeholder: Wrap up the front nine with your notes on the ninth hole, its key shots, and final score."                                 
+    description: "Choose accuracy between the fairway bunkers, then leave your approach below the hole."
 ---
 
 Bethpage Black New York, follow along as I attempt to break 80. Hole layouts are below. 
